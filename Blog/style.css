@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#blog_header_top_section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#blog_heading{
+    width: 198px;
+    height: 42px;
+    left: 121px;
+    top: 121px;
+
+    font-family: 'Poppins';
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 149.8%;
+
+    text-align: center;
+
+    color: #4F516B;
+}
+
+#search_header{
+    display: flex;
+    align-items: center;
+}
+
+#search_field{
+
+    border: 2px solid #B2CCE3; 
+
+    box-sizing: border-box;
+
+    width: 424px;
+    height: 49px;
+    left: 903px;
+    top: 115px;
+
+    border: 2px solid #B2CCE3;
+    border-radius: 9px;
+}
+
+#search_button{
+
+    box-sizing: border-box;
+    
+    width: 49px;
+    height: 49px;
+    left: 1337px;
+    top: 114px;
+
+    background: rgba(62, 142, 188, 0.82);
+    border: 1px solid #B2CCE3;
+    border-radius: 9px;
+}
+
+#search_button i{
+    /* fill: white; */
+    filter: invert();
+}
+
+/* Blog header mid section start */
+
+#blog_image{
+    position: relative;
+    height: 100%;
+}
+
+#blog_image img{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 20px;
+}
+
+#blog_image_content{
+
+    position: absolute;
+    z-index: 1;
+    width: 1440px;
+    height: 217px;
+    left: 2px;
+    top: 453px;
+    clip-path: polygon(0% 0%, 80% 0%, 100% 100%, 0% 100%);
+    
+    background: #FFFFFF;
+}
+
+#blog_image_content_heading{
+    width: 500px;
+    height: 39px;
+    left: 121px;
+    top: 592px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 149.8%;
+    /* identical to box height, or 39px */
+
+    padding-left: 19px;
+    padding-bottom: 10px;
+
+    color: #4F516B;
+
+}
+
+#blog_image_time{
+    width: 1083px;
+    height: 27px;
+    left: 121px;
+    top: 641px;
+
+    font-family: 'Proza Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 149.8%;
+    /* identical to box height, or 27px */
+
+    padding-left: 19px;
+    padding-bottom: 10px;
+
+    color: #9A9A9B;
+
+}
+
+#blog_image_text_content{
+
+    width: 1083px;
+    height: 60px;
+    left: 121px;
+    top: 680px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 149.8%;
+    /* or 30px */
+
+    padding-left: 19px;
+    padding-bottom: 10px;
+
+    color: #9A9A9B;
+
+
+}
+
+#blog_image_author{
+
+    width: 240px;
+    height: 30px;
+    left: 119px;
+    top: 755px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 149.8%;
+    /* identical to box height, or 30px */
+
+
+    background: linear-gradient(180deg, #444BAB 0%, #3E8EBC 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+
+    padding-left: 19px;
+}
+
+#blog_tag{
+    position: absolute;
+    z-index: 2;
+    width: 234px;
+    height: 46px;
+    left: 898px;
+    top: 426px;
+
+    background: #61A2C8;
+    border-radius: 34.5px;
+}
+
+#blog_tag_ele{
+    text-align: center;
+    width: 197px;
+    height: 27px;
+    left: 930px;
+    top: 553px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 149.8%;
+    /* identical to box height, or 27px */
+    margin-left: 19px;
+    margin-top: 10px;
+
+    color: #FFFFFF;
+}
+
+/* Blog header mid section end */
+
+#blog_header_bottom_section{
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Card section start*/
+
+.header_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.header_card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card_content{
+    padding: 15px 16px;
+}
+
+.header_card img{
+    width: 376px;
+    height: 218px;
+    left: 124px;
+    top: 909px;
+
+    background: url(./images/faang.jpeg);
+}
+
+.card_text{
+
+    width: 354px;
+    height: 135px;
+    left: 144px;
+    top: 1202px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 149.8%;
+    /* or 36px */
+    color: #4F516B;
+    padding-bottom: 10px;
+
+}
+
+.card_time{
+    width: 234px;
+    height: 24px;
+    left: 144px;
+    top: 1357px;
+
+    font-family: 'Proza Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 149.8%;
+    /* identical to box height, or 24px */
+
+    color: #9A9A9B;
+    padding-bottom: 10px
+}
+
+.card_author{
+    width: 240px;
+    height: 27px;
+    left: 144px;
+    top: 1401px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 149.8%;
+    /* identical to box height, or 27px */
+
+
+    background: linear-gradient(180deg, #444BAB 0%, #3E8EBC 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* text-fill-color: transparent; */
+}
+
+.header_card_container{
+    position: relative;
+}
+
+.card_tag{
+    position: absolute;
+    width: 203px;
+    height: 30px;
+    left: 147px;
+    top: 196px;
+
+    background: #61A2C8;
+    border-radius: 34.5px;
+}
+
+.card_tag_ele{
+    width: 185px;
+    height: 24px;
+    left: 274px;
+    top: 1148px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 149.8%;
+    /* identical to box height, or 24px */
+
+    margin-left: 16px;
+    margin-top: 3px;
+
+    color: #FFFFFF;
+}
+
+.card_tag_large{
+    width: 240px;
+    left: 134px;
+}
+
+.card_tag_ele_large{
+    width: 215px;
+}
+
+/* Card section end */
